@@ -1,0 +1,70 @@
+/* feuille de style extern */
+/*refdefinition de la balise h1*/
+h1{
+	
+}
+/*classe de style*/
+.H1{
+	/*liste des proprietes de styles */
+	font-family: Verdana ;
+	font-size: 24px;
+	font-weight: bold ;
+	
+	color:navy ;
+	text-align:center ;
+}
+.Box1{
+	width:70%;
+	min-height:300px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	border:solid 1px gray ;
+	border-radius:10px;
+	box-shadow:10px 10px 50px gray ;
+	padding: 10px;
+	
+}
+.Box1 > *{
+	width:100px;
+	height:100px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	border:solid 1px gray ;
+	border-radius:5px;
+	box-shadow:3px 3px 3px pink ;
+	
+	background-color: buttonaface ;
+	margin : 10px ;
+	padding :10px ;
+	
+	display: inline-block ;
+
+}
+/*la liste des styles de touts les elements a l interieur de Box1 */
+.Box2 > *{
+	width:100px;
+	height:100px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	border:solid 1px gray ;
+	border-radius:5px;
+	box-shadow:3px 3px 3px pink ;
+	
+	background-color: buttonaface ;
+	margin : 10px ;
+	padding :10px ;
+	/*affichage en mode flexible */
+	display:flex ;
+	flex-direction:row ;
+	flex-basis: 0;
+	flex-grow: ;
+	
+
+}
+
